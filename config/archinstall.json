@@ -1,0 +1,80 @@
+{
+  "script": "guided",
+  "archinstall-language": "English",
+  "hostname": "Home-PC",
+  "locale_config": {
+    "kb_layout": "us",
+    "sys_lang": "en_US.UTF-8",
+    "sys_enc": "UTF-8"
+  },
+  "timezone": "Europe/Kyiv",
+  "ntp": true,
+  "mirror_config": {
+    "mirror_regions": {
+      "Ukraine": []
+    },
+    "custom_servers": [],
+    "optional_repositories": [
+      "multilib"
+    ],
+    "custom_repositories": []
+  },
+  "profile_config": {
+    "profile": {
+      "main": "Minimal",
+      "details": [],
+      "custom_settings": {}
+    },
+    "gfx_driver": null,
+    "greeter": null
+  },
+  "bootloader_config": {
+    "bootloader": "Limine",
+    "uki": true,
+    "removable": true,
+    "plymouth": "spinner"
+  },
+  "network_config": {
+    "type": "iso"
+  },
+  "app_config": {
+    "audio_config": {
+      "audio": "pipewire"
+    },
+    "bluetooth_config": {
+      "enabled": true
+    },
+    "print_service_config": {
+      "enabled": false
+    },
+    "firewall_config": {
+      "firewall": "ufw"
+    },
+    "fonts_config": {
+      "fonts": [
+        "noto-fonts",
+        "noto-fonts-emoji",
+        "ttf-liberation"
+      ]
+    }
+  },
+  "swap": {
+    "enabled": true,
+    "algorithm": "zstd"
+  },
+  "kernels": [
+    "linux"
+  ],
+  "packages": [
+    "xdg-utils", "xdg-user-dirs", "xdg-desktop-portal-gtk", "xdg-desktop-portal-hyprland",
+    "curl", "wget", "openssh", "base-devel", "smartmontools",
+    "ly", "uwsm", "hyprland", "hyprpolkitagent", "neovim",
+    "git", "nautilus", "ghostty", "chromium"
+  ],
+  "services": [
+    "ly@tty1"
+  ],
+  "custom_commands": [
+    "systemctl disable getty@tty1.service"
+  ]
+}
