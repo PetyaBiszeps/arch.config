@@ -1,3 +1,3 @@
-include("config/input")
-include("config/binds")
-include("config/autostart")
+require("config/input")
+require("config/binds")
+require("config/autostart")
