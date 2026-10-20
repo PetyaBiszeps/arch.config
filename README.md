@@ -3,7 +3,7 @@
 Boot from Arch Linux ISO, connect to the internet, and run:
 
 ```bash
-archinstall --config-url https://raw.githubusercontent.com/PetyaBiszeps/arch.config/main/archinstall/config.json
+archinstall --config-url https://raw.githubusercontent.com/PetyaBiszeps/arch.config/main/config/archinstall.json
 ```
 
 The configuration preselects system settings, packages, and services.
