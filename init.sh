@@ -10,6 +10,6 @@ echo "==> Downloading dependencies"
 bash "$ROOT_DIR/scripts/download.sh"
 
 echo "==> Linking configurations"
-bash "$ROOT_DIR/scripts/stow.sh"
+bash "$ROOT_DIR/scripts/link.sh"
 
 echo "==> Initialization complete"
