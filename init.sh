@@ -20,5 +20,3 @@ bash "$ROOT_DIR/scripts/link.sh"
 
 echo "==> Initialization complete"
 echo "==> Reboot..."
-
-sudo systemctl reboot
