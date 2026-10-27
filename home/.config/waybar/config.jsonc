@@ -1,16 +1,37 @@
 {
-  "width": 2048,
   "height": 32,
+  "spacing": 3,
   "position": "top",
   "margin-top": 8,
+  "margin-left": 450,
+  "margin-right": 450,
 
-  "modules-left": [],
+  "modules-left": [
+    "custom/logo",
+    "ext/workspaces"
+  ],
   "modules-center": [
     "clock"
   ],
-  "modules-right": [],
+  "modules-right": [
+    "wireplumber",
+    "custom/lock"
+  ],
 
   // Modules
+  "ext/workspaces": {
+    "format": "{icon}",
+    "ignore-hidden": true,
+    "on-click": "activate",
+    "on-click-right": "deactivate",
+    "sort-by-id": true,
+    "format-icons": {
+      "default": "○",
+      "active": "●",
+      "urgent": "✱"
+    }
+  },
+
   "clock": {
     "format": "{:%H:%M}"
   }
