@@ -15,44 +15,18 @@ Before starting the installation, manually configure:
 
 ## Post-installation
 
-After installation, reboot and log in to your user account.
-
-#### 1. Generate an SSH key
+Run the bootstrap script:
 
 ```bash
-ssh-keygen -t ed25519
+curl -fsSL https://raw.githubusercontent.com/PetyaBiszeps/arch.config/main/bootstrap.sh | bash
 ```
 
-Display your public key:
+The script automatically clones or updates the repository at ~/Documents/dev/os/arch.config and initializes the environment:
 
-```bash
-cat ~/.ssh/id_ed25519.pub
-```
+1. Creates XDG user directories and generates an SSH key if needed.
+2. Installs the AUR helper and required packages.
+3. Updates Git submodules.
+4. Links configuration files.
+5. Reboots the system.
 
-Add the public key to [GitHub SSH keys](https://github.com/settings/ssh/new).
-
-Verify the connection:
-
-```bash
-ssh -T git@github.com
-```
-
-#### 2. Create XDG user directories
-
-```bash
-xdg-user-dirs-update
-```
-
-#### 3. Clone the repository
-
-```bash
-cd ~/Documents/dev/os
-git clone git@github.com:PetyaBiszeps/arch.config.git
-```
-
-#### 3. Initialize the environment
-
-```bash
-cd ~/Documents/dev/os/arch.config
-bash init.sh
-```
+> **Note:** The setup replaces managed configuration paths with symlinks and automatically reboots after successful completion.
