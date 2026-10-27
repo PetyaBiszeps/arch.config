@@ -3,7 +3,8 @@ set -euo pipefail
 
 ROOT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd -P)"
 
-yay -S --needed --noconfirm \
+yay -S \
+  --needed --noconfirm \
   --answerclean None --answerdiff None \
   $(grep -Ev '^[[:space:]]*(#|$)' "$ROOT_DIR/packages/arch.conf")
 
