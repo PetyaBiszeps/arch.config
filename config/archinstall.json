@@ -66,9 +66,9 @@
     "linux"
   ],
   "packages": [
-    "xdg-utils", "xdg-user-dirs", "xdg-desktop-portal-gtk", "xdg-desktop-portal-hyprland",
+    "xdg-utils", "xdg-user-dirs", "xdg-desktop-portal-gtk",
     "curl", "wget", "openssh", "base-devel", "smartmontools",
-    "ly", "uwsm", "hyprland", "hyprpolkitagent", "neovim",
+    "ly", "uwsm", "neovim",
     "git", "nautilus", "ghostty", "chromium"
   ],
   "services": [
