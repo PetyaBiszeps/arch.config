@@ -2,6 +2,7 @@
   "height": 32,
   "spacing": 3,
   "position": "top",
+  "exclusive": false,
   "margin-top": 8,
   "margin-left": 450,
   "margin-right": 450,
@@ -19,21 +20,39 @@
   ],
 
   // Modules
+  "custom/logo": {
+    "format": "",
+    "tooltip": false
+  },
+
   "ext/workspaces": {
     "format": "{icon}",
-    "ignore-hidden": true,
-    "on-click": "activate",
-    "on-click-right": "deactivate",
     "sort-by-id": true,
+    "ignore-hidden": true,
     "format-icons": {
       "default": "○",
       "active": "●",
       "urgent": "✱"
-    }
+    },
+    "on-click": "activate"
   },
 
   "clock": {
-    "format": "{:%H:%M}"
+    "format": "{:%H:%M}",
+    "tooltip": false
+  },
+
+  "wireplumber": {
+    "format": "{icon} {volume}%",
+    "format-muted": "󰖁",
+    "format-icons": ["", "", ""],
+    "tooltip": false,
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+  },
+
+  "custom/lock": {
+    "format": "",
+    "tooltip": false
   },
 
   // Misc
