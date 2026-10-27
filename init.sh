@@ -19,4 +19,3 @@ echo "==> Linking configurations"
 bash "$ROOT_DIR/scripts/link.sh"
 
 echo "==> Initialization complete"
-echo "==> Reboot..."

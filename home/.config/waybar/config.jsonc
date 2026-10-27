@@ -8,5 +8,10 @@
   "modules-center": [
     "clock"
   ],
-  "modules-right": []
+  "modules-right": [],
+
+  // Modules
+  "clock": {
+    "format": "{:%H:%M}"
+  }
 }
