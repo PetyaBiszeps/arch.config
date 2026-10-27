@@ -5,6 +5,8 @@
   "margin-top": 8,
 
   "modules-left": [],
-  "modules-center": [],
+  "modules-center": [
+    "clock"
+  ],
   "modules-right": []
 }
