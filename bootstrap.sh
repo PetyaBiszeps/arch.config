@@ -22,7 +22,7 @@ else
 fi
 
 echo "==> Starting installation"
-exec bash "$INSTALL_DIR/init.sh" </dev/tty
+bash "$INSTALL_DIR/init.sh" </dev/tty
 
 echo "==> Installation complete"
 echo "==> Rebooting system"
