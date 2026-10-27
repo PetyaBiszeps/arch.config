@@ -1,3 +1,3 @@
 hl.on("hyprland.start", function()
-  -- Personal autostart commands go here
+  hl.exec_cmd("waybar")
 end)
