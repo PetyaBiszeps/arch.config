@@ -8,7 +8,7 @@
 
   "modules-left": [
     "custom/logo",
-    "ext/workspaces"
+    "hyprland/workspaces"
   ],
   "modules-center": [
     "clock"
@@ -24,10 +24,9 @@
     "tooltip": false
   },
 
-  "ext/workspaces": {
+  "hyprland/workspaces": {
     "format": "{icon}",
-    "sort-by-id": true,
-    "ignore-hidden": true,
+    "sort-by-number": true,
     "format-icons": {
       "default": "○",
       "active": "●",
