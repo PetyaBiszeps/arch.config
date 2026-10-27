@@ -37,7 +37,7 @@ fi
 
 (
   cd "$yay_dir"
-  makepkg -si
+  makepkg -si --noconfirm
 )
 
 echo "==> yay installed successfully"
