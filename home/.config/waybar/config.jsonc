@@ -34,5 +34,8 @@
 
   "clock": {
     "format": "{:%H:%M}"
-  }
+  },
+
+  // Misc
+  "reload_style_on_change": true
 }
