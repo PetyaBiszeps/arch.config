@@ -10,7 +10,7 @@
     "custom/launcher",
     "hyprland/workspaces"
   ],
-  "modules-center": ["clock#time", "clock#date"],
+  "modules-center": ["clock"],
   "modules-right": [
     "pulseaudio#output",
     "network",

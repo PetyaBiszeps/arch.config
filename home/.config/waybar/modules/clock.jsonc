@@ -1,11 +1,6 @@
 {
-  "clock#time": {
-    "format": "{:%H:%M}",
-    "tooltip": false
-  },
-
-  "clock#date": {
-    "format": "{:%a, %d %b}",
+  "clock": {
+    "format": "{:%a, %d %b | %H:%M}",
     "tooltip-format": "<tt>{calendar}</tt>",
 
     "calendar": {
