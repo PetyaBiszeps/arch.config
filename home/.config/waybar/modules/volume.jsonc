@@ -1,7 +1,7 @@
 {
   "pulseaudio#output": {
-    "format": "<span rise='2000'>{icon}</span> {volume}%",
-    "format-muted": "<span rise='2000'>{icon}</span> {volume}%",
+    "format": "<span rise='1500'>{icon}</span> \u200a{volume}%",
+    "format-muted": "<span rise='1500'>{icon}</span> \u200a{volume}%",
     "format-icons": {
       "default": "󰋋",
       "default-muted": "󰟎",
