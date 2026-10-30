@@ -13,17 +13,6 @@ window#waybar {
   border-radius: 16px;
 }
 
-tooltip {
-  border: 1px solid @border;
-  background: @background;
-  border-radius: 16px;
-}
-
-tooltip label {
-  color: @foreground;
-  font-size: 14px;
-}
-
 #custom-launcher {
   padding-left: 12px;
   padding-right: 8px;
@@ -63,10 +52,6 @@ tooltip label {
   opacity: 1;
   background: transparent;
   text-shadow: none;
-}
-
-#clock:hover {
-  color: @accent;
 }
 
 #pulseaudio {
