@@ -14,6 +14,7 @@
   "modules-right": [
     "pulseaudio#output",
     "network",
+    "bluetooth",
     "custom/power"
   ],
 
@@ -27,6 +28,7 @@
     "~/.config/waybar/modules/workspaces.jsonc",
     "~/.config/waybar/modules/volume.jsonc",
     "~/.config/waybar/modules/network.jsonc",
+    "~/.config/waybar/modules/bluetooth.jsonc",
     "~/.config/waybar/modules/power.jsonc"
   ]
 }

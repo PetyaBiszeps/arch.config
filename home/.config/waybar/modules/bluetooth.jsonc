@@ -1,0 +1,18 @@
+{
+  "bluetooth": {
+    "cursor": true,
+
+    "format": "󰂯",
+    "format-on": "󰂰",
+    "format-connected": "󰂱",
+    "format-off": "󰂲",
+    "format-disabled": "󰂲",
+    "format-no-controller": "",
+
+    "tooltip-format-on": "Bluetooth Disconnected",
+    "tooltip-format-connected": "Device: {device_alias}",
+    "tooltip-format-off": "Bluetooth Off",
+    "tooltip-format-disabled": "Bluetooth Disabled",
+    "tooltip-format-connected-battery": "Device: {device_alias}\nBattery: {device_battery_percentage}%"
+  }
+}

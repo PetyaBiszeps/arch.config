@@ -75,6 +75,19 @@ window#waybar {
   opacity: 0.5;
 }
 
+#bluetooth {
+  padding: 0 8px;
+}
+
+#bluetooth:hover {
+  color: @accent;
+}
+
+#bluetooth.off,
+#bluetooth.disabled {
+  opacity: 0.5;
+}
+
 #custom-power {
   padding-left: 8px;
   padding-right: 12px;
