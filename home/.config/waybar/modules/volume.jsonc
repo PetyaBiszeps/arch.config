@@ -11,6 +11,7 @@
       "headset": "󰋎",
       "headset-muted": "󰋐"
     },
-    "tooltip-format": "Output Device: {desc}"
+    "tooltip-format": "Output Device: {desc}",
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
   }
 }
