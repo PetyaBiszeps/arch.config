@@ -6,53 +6,15 @@
   "margin-left": 450,
   "margin-right": 450,
 
-  "modules-left": [
-    "custom/logo",
-    "hyprland/workspaces"
-  ],
-  "modules-center": [
-    "clock"
-  ],
-  "modules-right": [
-    "wireplumber",
-    "custom/lock"
-  ],
-
-  // Modules
-  "custom/logo": {
-    "format": "",
-    "tooltip": false
-  },
-
-  "hyprland/workspaces": {
-    "format": "{icon}",
-    "sort-by-number": true,
-    "format-icons": {
-      "default": "○",
-      "active": "●",
-      "urgent": "✱"
-    },
-    "on-click": "activate"
-  },
-
-  "clock": {
-    "format": "{:%H:%M}",
-    "tooltip": false
-  },
-
-  "wireplumber": {
-    "format": "{icon} {volume}%",
-    "format-muted": "󰖁",
-    "format-icons": ["", "", ""],
-    "tooltip": false,
-    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
-  },
-
-  "custom/lock": {
-    "format": "",
-    "tooltip": false
-  },
+  "modules-left": [],
+  "modules-center": ["clock#time", "clock#date"],
+  "modules-right": [],
 
   // Misc
-  "reload_style_on_change": true
+  "reload_style_on_change": true,
+
+  // Modules
+  "include": [
+    "~/.config/waybar/modules/clock.json"
+  ]
 }

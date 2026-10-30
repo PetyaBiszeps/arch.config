@@ -1,0 +1,29 @@
+{
+  "clock#time": {
+    "format": "{:%H:%M}",
+    "tooltip": false
+  },
+
+  "clock#date": {
+    "format": "{:%a, %d %b}",
+    "tooltip-format": "<tt>{calendar}</tt>",
+
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 3,
+      "on-scroll": 1,
+      "format": {
+        "months": "<b>{}</b>",
+        "days": "<span alpha='85%'>{}</span>",
+        "weekdays": "<span alpha='60%'>{}</span>",
+        "today": "<b><u>{}</u></b>"
+      }
+    },
+
+    "actions": {
+      "on-click": "mode",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    }
+  }
+}
