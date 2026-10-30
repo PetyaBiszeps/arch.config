@@ -21,3 +21,32 @@ window#waybar {
 #custom-launcher:hover {
   color: @danger;
 }
+
+#workspaces {
+  padding: 0 8px;
+}
+
+#workspaces button {
+  color: @foreground;
+  margin: 2px;
+  border: none;
+  padding: 0 5px;
+  font-size: 14px;
+  background: transparent;
+  border-radius: 50%;
+}
+
+#workspaces button.empty {
+  opacity: 0.5;
+}
+
+#workspaces button.active {
+  color: @accent;
+  opacity: 1;
+}
+
+#workspaces button:hover {
+  color: @accent;
+  opacity: 1;
+  background: transparent;
+}
