@@ -12,6 +12,7 @@
   ],
   "modules-center": ["clock#time", "clock#date"],
   "modules-right": [
+    "pulseaudio#output",
     "custom/power"
   ],
 
@@ -20,9 +21,10 @@
 
   // Modules
   "include": [
-    "~/.config/waybar/modules/power.jsonc",
     "~/.config/waybar/modules/clock.jsonc",
     "~/.config/waybar/modules/launcher.jsonc",
-    "~/.config/waybar/modules/workspaces.jsonc"
+    "~/.config/waybar/modules/workspaces.jsonc",
+    "~/.config/waybar/modules/pulseaudio.jsonc",
+    "~/.config/waybar/modules/power.jsonc"
   ]
 }

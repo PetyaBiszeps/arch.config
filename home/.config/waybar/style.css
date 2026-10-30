@@ -54,6 +54,14 @@ window#waybar {
   text-shadow: none;
 }
 
+#pulseaudio {
+  padding: 0 8px;
+}
+
+#pulseaudio.muted {
+  opacity: 0.5;
+}
+
 #custom-power {
   padding-left: 8px;
   padding-right: 12px;
