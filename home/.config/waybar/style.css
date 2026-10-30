@@ -58,6 +58,10 @@ window#waybar {
   padding: 0 8px;
 }
 
+#pulseaudio:hover {
+  color: @accent;
+}
+
 #pulseaudio.muted {
   opacity: 0.5;
 }
