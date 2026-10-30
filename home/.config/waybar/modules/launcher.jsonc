@@ -3,6 +3,6 @@
     "format": "󰌽",
     "cursor": true,
     "tooltip": false,
-    "on-click": "vicinae toggle"
+    "on-click": "vicinae 'vicinae://launch/applications?toggle=true'"
   }
 }

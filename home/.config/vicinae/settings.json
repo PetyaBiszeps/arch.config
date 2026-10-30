@@ -1,4 +1,9 @@
 {
+  "launcher_window": {
+    "compact_mode": {
+      "enabled": true
+    }
+  },
   "theme": {
     "light": {
       "name": "one-dark"
