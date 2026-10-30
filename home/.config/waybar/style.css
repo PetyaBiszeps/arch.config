@@ -52,4 +52,5 @@ window#waybar {
   opacity: 1;
   box-shadow: none;
   background: transparent;
+  text-shadow: none;
 }
