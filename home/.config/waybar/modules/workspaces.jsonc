@@ -1,8 +1,6 @@
 {
   "hyprland/workspaces": {
-    "on-click": "activate",
     "format": "{icon}",
-
     "format-icons": {
       "default": "",
       "active": "󰻂",
@@ -15,6 +13,8 @@
       "3": [],
       "4": [],
       "5": []
-    }
+    },
+    "cursor": "pointer",
+    "on-click": "activate"
   }
 }
