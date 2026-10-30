@@ -1,6 +1,7 @@
 {
   "pulseaudio#output": {
     "cursor": true,
+    "tooltip": false,
     "format": "<span rise='1500'>{icon}</span> \u200a{volume}%",
     "format-muted": "<span rise='1500'>{icon}</span> \u200a{volume}%",
     "format-icons": {
@@ -11,7 +12,6 @@
       "headset": "󰋎",
       "headset-muted": "󰋐"
     },
-    "tooltip-format": "Output Device: {desc}",
     "on-click": "vicinae 'vicinae://launch/@rastsislaux/store.vicinae.pulseaudio/outputDevices'",
     "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
   }
