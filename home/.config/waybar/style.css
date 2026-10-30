@@ -13,6 +13,22 @@ window#waybar {
   border-radius: 16px;
 }
 
+tooltip {
+  background: @background;
+  border: 1px solid @border;
+  border-radius: 12px;
+}
+
+tooltip label {
+  color: @foreground;
+  font-size: 14px;
+  text-shadow: none;
+}
+
+tooltip box {
+  padding: 10px;
+}
+
 #custom-launcher {
   padding-left: 12px;
   padding-right: 8px;
