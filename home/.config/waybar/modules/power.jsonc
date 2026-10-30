@@ -1,6 +1,7 @@
 {
   "custom/power": {
     "format": "<span size='11500'>⏻</span>",
+    "tooltip": false,
     "on-click": "vicinae vicinae://launch/power"
   }
 }
