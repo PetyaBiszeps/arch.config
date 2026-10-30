@@ -70,6 +70,10 @@ tooltip box {
   text-shadow: none;
 }
 
+#clock:hover {
+  color: @accent;
+}
+
 #pulseaudio {
   padding: 0 8px;
 }
