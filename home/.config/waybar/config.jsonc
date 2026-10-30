@@ -11,13 +11,16 @@
     "hyprland/workspaces"
   ],
   "modules-center": ["clock#time", "clock#date"],
-  "modules-right": [],
+  "modules-right": [
+    "custom/power"
+  ],
 
   // Misc
   "reload_style_on_change": true,
 
   // Modules
   "include": [
+    "~/.config/waybar/modules/power.jsonc",
     "~/.config/waybar/modules/clock.jsonc",
     "~/.config/waybar/modules/launcher.jsonc",
     "~/.config/waybar/modules/workspaces.jsonc"
