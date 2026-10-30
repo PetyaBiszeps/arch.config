@@ -1,0 +1,6 @@
+@define-color background #282C34;
+@define-color foreground rgba(255, 255, 255, 0.9);
+@define-color border rgba(89, 89, 89, 0.67);
+
+@define-color accent #2EC5E7;
+@define-color danger #BF616A;

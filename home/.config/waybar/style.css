@@ -5,15 +5,17 @@
 }
 
 window#waybar {
-  /* temp */
-  background: rgba(30, 24, 23, 0.94);
-  color: #e5e1df;
-  border: 1px solid rgba(180, 145, 115, 0.4);
+  color: @foreground;
+  border: 1px solid @border;
+  background: alpha(@background, 0.94);
   border-radius: 16px;
 }
 
 #custom-launcher {
   padding-left: 12px;
   padding-right: 8px;
-}
 
+  &:hover {
+    color: @danger;
+  }
+}
