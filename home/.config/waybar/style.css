@@ -19,7 +19,7 @@ window#waybar {
 }
 
 #custom-launcher:hover {
-  color: @danger;
+  color: @accent;
 }
 
 #workspaces {
@@ -50,7 +50,6 @@ window#waybar {
   color: @accent;
   border: none;
   opacity: 1;
-  box-shadow: none;
   background: transparent;
   text-shadow: none;
 }
