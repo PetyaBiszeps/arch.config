@@ -14,8 +14,8 @@ window#waybar {
 #custom-launcher {
   padding-left: 12px;
   padding-right: 8px;
+}
 
-  &:hover {
-    color: @danger;
-  }
+#custom-launcher:hover {
+  color: @danger;
 }
