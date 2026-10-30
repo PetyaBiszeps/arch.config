@@ -32,6 +32,7 @@ window#waybar {
   border: none;
   padding: 0 5px;
   font-size: 14px;
+  box-shadow: none;
   background: transparent;
   border-radius: 50%;
 }
@@ -48,5 +49,6 @@ window#waybar {
 #workspaces button:hover {
   color: @accent;
   opacity: 1;
+  box-shadow: none;
   background: transparent;
 }
