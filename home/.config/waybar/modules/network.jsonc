@@ -1,7 +1,7 @@
 {
   "network": {
+    "cursor": true,
     "interval": 10,
-    "cursor": "pointer",
 
     "format": "{icon}",
     "format-wifi": "{icon}",
