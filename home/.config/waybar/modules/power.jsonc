@@ -1,7 +1,6 @@
 {
   "custom/power": {
     "format": "<span size='11500'>⏻</span>",
-    "tooltip-format": "Power Menu",
-    "on-click": "ghostty -e bash ~/.config/waybar/scripts/power.sh"
+    "on-click": "vicinae vicinae://launch/power"
   }
 }

@@ -1,7 +1,8 @@
 {
   "custom/launcher": {
     "format": "󰌽",
+    "cursor": true,
     "tooltip": false,
-    "on-click": ""
+    "on-click": "vicinae toggle"
   }
 }
