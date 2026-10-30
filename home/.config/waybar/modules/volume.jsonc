@@ -3,8 +3,8 @@
     "format": "{icon} {volume}%",
     "format-muted": "{icon} {volume}%",
     "format-icons": {
-      "default": ["󰕿", "󰖀", "󰕾"],
-      "default-muted": "󰝟",
+      "default": "󰋋",
+      "default-muted": "󰟎",
       "headphone": "󰋋",
       "headphone-muted": "󰟎",
       "headset": "󰋎",
