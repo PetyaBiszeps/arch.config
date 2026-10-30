@@ -1,77 +1,19 @@
 * {
-  font-family: "Noto Sans", "Symbols Nerd Font", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
-  min-height: 0;
+  font-family: "Noto Sans", "Symbols Nerd Font", sans-serif;
 }
 
 window#waybar {
+  /* temp */
   background: rgba(30, 24, 23, 0.94);
   color: #e5e1df;
   border: 1px solid rgba(180, 145, 115, 0.4);
   border-radius: 16px;
 }
 
-/* Logo */
-
 #custom-logo {
-  font-size: 16px;
-  color: #f1e7dd;
   padding-left: 12px;
   padding-right: 8px;
 }
 
-/* Workspaces */
-
-#workspaces button {
-  padding: 0 3px;
-  margin: 0;
-  border: none;
-  border-radius: 0;
-  background: transparent;
-  color: #89817e;
-  box-shadow: none;
-  text-shadow: none;
-  font-size: 13px;
-}
-
-#workspaces button.active {
-  color: #f5ede5;
-}
-
-#workspaces button.urgent {
-  color: #e6a198;
-}
-
-#workspaces button:hover {
-  background: transparent;
-  color: #ffffff;
-  box-shadow: none;
-}
-
-/* Clock */
-
-#clock {
-  color: #e5e1df;
-  padding: 0 8px;
-}
-
-/* Audio */
-
-#wireplumber {
-  color: #e5e1df;
-  padding: 0 8px;
-}
-
-#wireplumber.muted {
-  color: #89817e;
-}
-
-/* Lock */
-
-#custom-lock {
-  font-size: 14px;
-  color: #e5e1df;
-  padding-left: 8px;
-  padding-right: 12px;
-}
