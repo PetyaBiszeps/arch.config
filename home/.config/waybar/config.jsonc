@@ -6,7 +6,9 @@
   "margin-left": 450,
   "margin-right": 450,
 
-  "modules-left": [],
+  "modules-left": [
+    "custom/launcher"
+  ],
   "modules-center": ["clock#time", "clock#date"],
   "modules-right": [],
 
@@ -15,6 +17,7 @@
 
   // Modules
   "include": [
-    "~/.config/waybar/modules/clock.json"
+    "~/.config/waybar/modules/clock.jsonc",
+    "~/.config/waybar/modules/launcher.jsonc"
   ]
 }
