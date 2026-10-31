@@ -21,7 +21,6 @@ delay_ms = 0
 
 
 [keybinds]
-"Mod" = "spawn noctalia msg panel-toggle launcher"
 "Mod+Escape" = "session-quit"
 
 "Mod+Q" = "window-close"
