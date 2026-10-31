@@ -1,3 +1,4 @@
+// Rofi configuration
 configuration {
   modi: "drun";
   show-icons: true;
@@ -8,93 +9,98 @@ configuration {
   me-accept-entry: "MousePrimary";
 }
 
+// Rofi styling
 * {
   font: "Noto Sans 11";
 
-  accent: #2ec5e7;
-  foreground: #e5e9f0;
-  background: #282c34;
-  background-alt: #343a45;
-  border-color: #454b54;
+  accent: #2EC5E7;
+  foreground: #E5E9F0;
+  background: #282C34;
+  border-color: #454B54;
+  background-alt: #343A45;
 
-  background-color: @background;
+  w-default: 400px;
+  border-none: 0px;
+  border-default: 2px;
+  border-radius-default: 16px;
+
+  border: @border-none;
   text-color: @foreground;
-  border: 0px;
+  background-color: @background;
 }
 
 window {
-  width: 400px;
-  location: center;
   anchor: center;
-  border: 2px;
-  border-radius: 12px;
+  location: center;
+
+  width: @w-default;
+  border: @border-default;;
   border-color: @border-color;
+  border-radius: @border-radius-default;
   background-color: @background;
 }
 
 mainbox {
   children: [inputbar, listview];
+
   spacing: 0px;
   padding: 0px;
 }
 
 inputbar {
   children: [textbox-prompt-colon, entry];
-  padding: 12px 14px;
+
   spacing: 10px;
+  padding: 12px 14px;
   border-radius: 10px 10px 0px 0px;
   background-color: @background-alt;
 }
 
 textbox-prompt-colon {
   str: "";
-  expand: false;
   font: "Symbols Nerd Font 14";
+  expand: false;
   text-color: @accent;
   background-color: transparent;
 }
 
 entry {
   placeholder: "Search...";
-  placeholder-color: @foreground;
   text-color: @foreground;
   background-color: transparent;
+  placeholder-color: @foreground;
 }
 
 listview {
-  columns: 1;
   lines: 6;
-  border: 0px;
+  columns: 1;
   spacing: 0px;
   padding: 6px 0px;
   scrollbar: false;
   fixed-height: true;
+
+  border: @border-none;
   background-color: @background;
 }
 
 element {
+  spacing: 12px;
   padding: 10px 12px;
   border-radius: 4px;
-  spacing: 12px;
-  background-color: @background;
+
   text-color: @foreground;
+  background-color: @background;
 }
 
-element normal.normal,
-element alternate.normal,
-element normal.active,
-element alternate.active,
-element normal.urgent,
-element alternate.urgent {
-  background-color: @background;
+element normal.normal, element alternate.normal, element normal.active,
+element alternate.active, element normal.urgent, element alternate.urgent {
   text-color: @foreground;
+  background-color: @background;
 }
 
-element selected.normal,
-element selected.active,
-element selected.urgent {
+element selected.normal, element selected.active, element selected.urgent {
+  text-color: @foreground;
   background-color: @background-alt;
-  text-color: @foreground;
 }
 
 element-icon {
@@ -103,7 +109,7 @@ element-icon {
 }
 
 element-text {
+  text-color: inherit;
   vertical-align: 0.5;
   background-color: transparent;
-  text-color: inherit;
 }
