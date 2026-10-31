@@ -64,6 +64,7 @@ entry {
 listview {
   columns: 1;
   lines: 6;
+  border: 0px;
   spacing: 0px;
   padding: 6px 0px;
   scrollbar: false;
