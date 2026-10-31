@@ -3,6 +3,6 @@
     "format": "󰌽",
     "cursor": true,
     "tooltip": false,
-    "on-click": ""
+    "on-click": "rofi -show drun"
   }
 }
