@@ -1,0 +1,9 @@
+@import "../config.rasi"
+
+mainbox {
+  children: [listview];
+}
+
+listview {
+  lines: 5;
+}
