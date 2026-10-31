@@ -1,5 +1,9 @@
 @import "../config.rasi"
 
+element {
+  children: [element-text];
+}
+
 textbox-prompt-colon {
   str: "󰂯";
 }
