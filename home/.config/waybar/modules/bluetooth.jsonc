@@ -10,7 +10,7 @@
     "format-disabled": "󰂲",
     "format-no-controller": "",
 
-    "on-click": "vicinae 'vicinae://launch/@Gelei/store.vicinae.bluetooth/devices'",
-    "on-click-right": "vicinae 'vicinae://launch/@Gelei/store.vicinae.bluetooth/scan'"
+    "on-click": "",
+    "on-click-right": ""
   }
 }

@@ -13,7 +13,7 @@
     "format-icons": [
       "󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
     ],
-    "on-click": "vicinae 'vicinae://launch/@dagimg-dot/store.vicinae.wifi-commander/scan-wifi'",
-    "on-click-right": "vicinae 'vicinae://launch/@dagimg-dot/store.vicinae.wifi-commander/manage-saved-networks'"
+    "on-click": "",
+    "on-click-right": ""
   }
 }

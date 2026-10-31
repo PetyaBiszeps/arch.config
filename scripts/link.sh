@@ -7,4 +7,3 @@ source "$ROOT_DIR/scripts/utils/symlink.sh"
 
 link_config "hypr"
 link_config "waybar"
-link_config "vicinae"

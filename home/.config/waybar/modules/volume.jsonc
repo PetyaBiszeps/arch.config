@@ -12,7 +12,7 @@
       "headset": "󰋎",
       "headset-muted": "󰋐"
     },
-    "on-click": "vicinae 'vicinae://launch/@rastsislaux/store.vicinae.pulseaudio/outputDevices'",
+    "on-click": "",
     "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
   }
 }
