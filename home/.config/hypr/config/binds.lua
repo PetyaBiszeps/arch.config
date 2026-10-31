@@ -11,3 +11,6 @@ hl.bind(mod .. " + Q", hl.dsp.window.close())
 
 -- Misc
 hl.bind("Print", hl.dsp.exec_cmd([[sh -c 'area=$(slurp) && grim -g "$area" - | wl-copy -t image/png']]))
+hl.bind("mouse:272", hl.dsp.exec_cmd("~/.config/rofi/close-on-click.sh"), {
+  non_consuming = true
+})
