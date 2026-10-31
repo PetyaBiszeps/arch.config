@@ -11,12 +11,17 @@ configuration {
   foreground: #e5e9f0;
   background: #282c34;
   background-alt: #343a45;
+
+  background-color: @background;
+  text-color: @foreground;
+  border-color: @background;
 }
 
 window {
   width: 400px;
   location: center;
   anchor: center;
+  border: 0px;
   border-radius: 12px;
   background-color: @background;
 }
@@ -25,6 +30,7 @@ mainbox {
   children: [inputbar, listview];
   spacing: 0px;
   padding: 0px;
+  background-color: @background;
 }
 
 inputbar {
@@ -57,18 +63,31 @@ listview {
   padding: 6px 0px;
   scrollbar: false;
   fixed-height: true;
-  background-color: transparent;
+  background-color: @background;
 }
 
 element {
   padding: 10px 12px;
   spacing: 12px;
-  background-color: transparent;
+  background-color: @background;
   text-color: @foreground;
 }
 
-element selected.normal {
+element normal.normal,
+element alternate.normal,
+element normal.active,
+element alternate.active,
+element normal.urgent,
+element alternate.urgent {
+  background-color: @background;
+  text-color: @foreground;
+}
+
+element selected.normal,
+element selected.active,
+element selected.urgent {
   background-color: @background-alt;
+  text-color: @foreground;
 }
 
 element-icon {
