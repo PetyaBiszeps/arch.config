@@ -19,6 +19,7 @@ configuration {
   border-color: #454B54;
   background-alt: #343A45;
 
+  p-default: 5px;
   w-default: 400px;
   border-none: 0px;
   border-default: 2px;
@@ -35,6 +36,7 @@ window {
 
   width: @w-default;
   border: @border-default;
+  padding: @p-default;
   border-color: @border-color;
   border-radius: @border-radius-default;
   background-color: @background;
