@@ -1,8 +1,0 @@
-{
-  "custom/launcher": {
-    "format": "󰌽",
-    "cursor": true,
-    "tooltip": false,
-    "on-click": "~/.config/rofi/scripts/toggle.sh launcher"
-  }
-}

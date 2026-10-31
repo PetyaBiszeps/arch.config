@@ -1,7 +1,0 @@
-{
-  "custom/power": {
-    "format": "<span size='11500'>⏻</span>",
-    "tooltip": false,
-    "on-click": "~/.config/rofi/scripts/toggle.sh power"
-  }
-}
