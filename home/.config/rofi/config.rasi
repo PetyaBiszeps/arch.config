@@ -1,0 +1,83 @@
+configuration {
+  modi: "drun";
+  show-icons: true;
+  drun-display-format: "{name}";
+}
+
+* {
+  font: "Noto Sans 11";
+
+  accent: #2ec5e7;
+  foreground: #e5e9f0;
+  background: #282c34;
+  background-alt: #343a45;
+}
+
+window {
+  width: 400px;
+  location: center;
+  anchor: center;
+  border-radius: 12px;
+  background-color: @background;
+}
+
+mainbox {
+  children: [inputbar, listview];
+  spacing: 0px;
+  padding: 0px;
+}
+
+inputbar {
+  children: [textbox-prompt-colon, entry];
+  padding: 12px 14px;
+  spacing: 10px;
+  border-radius: 12px 12px 0px 0px;
+  background-color: @accent;
+}
+
+textbox-prompt-colon {
+  str: "";
+  expand: false;
+  font: "Symbols Nerd Font 14";
+  text-color: @background;
+  background-color: transparent;
+}
+
+entry {
+  placeholder: "Search...";
+  placeholder-color: @background;
+  text-color: @background;
+  background-color: transparent;
+}
+
+listview {
+  columns: 1;
+  lines: 6;
+  spacing: 0px;
+  padding: 6px 0px;
+  scrollbar: false;
+  fixed-height: true;
+  background-color: transparent;
+}
+
+element {
+  padding: 10px 12px;
+  spacing: 12px;
+  background-color: transparent;
+  text-color: @foreground;
+}
+
+element selected.normal {
+  background-color: @background-alt;
+}
+
+element-icon {
+  size: 32px;
+  background-color: transparent;
+}
+
+element-text {
+  vertical-align: 0.5;
+  background-color: transparent;
+  text-color: inherit;
+}
