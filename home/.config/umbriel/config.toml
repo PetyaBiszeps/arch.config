@@ -10,12 +10,15 @@ gap = 8
 mode = "scrolling"
 
 [layout.scrolling]
+center_focused = "never"
+center_underfull_strip = false
 default_extent_fraction = 0.5
 
 [hot_corners.top_left]
 enabled = true
-delay_ms = 0
 action = "overview-open"
+delay_ms = 0
+
 
 [keybinds]
 "Mod" = "spawn noctalia msg panel-toggle launcher"
