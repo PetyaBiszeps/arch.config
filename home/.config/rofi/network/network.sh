@@ -3,14 +3,14 @@
 theme="${XDG_CONFIG_HOME:-$HOME/.config}/rofi/network/network.rasi"
 
 choice="$(
-  printf '%s\n' \
-    '<span foreground="#2EC5E7">󰤨</span>  Home Wi-Fi  · Connected' \
-    '󰤨  Office 5G' \
-    '󰤥  Coffee Shop' \
-    '󰤢  Guest Network' \
-    '󰑐  Refresh networks' \
-    '󰖪  Disable Wi-Fi' |
-    rofi -dmenu -no-custom -markup-rows \
+  {
+    printf 'Home Wi-Fi · Connected\0icon\x1fnetwork-wireless\n'
+    printf 'Office 5G\0icon\x1fnetwork-wireless\n'
+    printf 'Coffee Shop\0icon\x1fnetwork-wireless\n'
+    printf 'Guest Network\0icon\x1fnetwork-wireless\n'
+    printf 'Refresh networks\0icon\x1fview-refresh\n'
+    printf 'Disable Wi-Fi\0icon\x1fnetwork-wireless-offline\n'
+  } | rofi -dmenu -no-custom \
       -theme "$theme" -p "Wi-Fi"
 )" || exit 0
 

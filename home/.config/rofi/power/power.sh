@@ -5,11 +5,11 @@ theme="${XDG_CONFIG_HOME:-$HOME/.config}/rofi/power/power.rasi"
 
 choice="$(
   {
-    printf 'Lock\0icon\x1f<span foreground="#2EC5E7"></span>\n'
-    printf 'Suspend\0icon\x1f<span foreground="#2EC5E7">󰤄</span>\n'
-    printf 'Logout\0icon\x1f<span foreground="#2EC5E7">󰍃</span>\n'
-    printf 'Reboot\0icon\x1f<span foreground="#2EC5E7"></span>\n'
-    printf 'Shutdown\0icon\x1f<span foreground="#2EC5E7"></span>\n'
+    printf 'Lock\0icon\x1fsystem-lock-screen\n'
+    printf 'Suspend\0icon\x1fsystem-suspend\n'
+    printf 'Logout\0icon\x1fsystem-log-out\n'
+    printf 'Reboot\0icon\x1fsystem-reboot\n'
+    printf 'Shutdown\0icon\x1fsystem-shutdown\n'
   } | rofi -dmenu -no-custom -format i -theme "$theme"
 )" || exit 0
 

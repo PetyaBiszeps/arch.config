@@ -6,5 +6,4 @@ mainbox {
 
 listview {
   lines: 5;
-  padding: 6px;
 }

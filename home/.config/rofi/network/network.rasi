@@ -4,10 +4,10 @@ textbox-prompt-colon {
   str: "󰖩";
 }
 
-entry {
-  placeholder: "Search networks...";
-}
-
 listview {
   lines: 6;
+}
+
+entry {
+  placeholder: "Search networks...";
 }
