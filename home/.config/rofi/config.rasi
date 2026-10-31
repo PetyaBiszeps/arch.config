@@ -34,7 +34,7 @@ window {
   location: center;
 
   width: @w-default;
-  border: @border-default;;
+  border: @border-default;
   border-color: @border-color;
   border-radius: @border-radius-default;
   background-color: @background;
