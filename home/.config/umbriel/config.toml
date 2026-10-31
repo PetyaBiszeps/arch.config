@@ -13,13 +13,13 @@ mode = "scrolling"
 default_extent_fraction = 0.5
 
 [keybinds]
-"Mod" = "spawn:noctalia msg panel-toggle launcher"
+"Mod" = "spawn noctalia msg panel-toggle launcher"
 "Mod+Escape" = "session-quit"
 
 "Mod+Q" = "window-close"
 "Mod+F" = "window-toggle-maximize"
 "Mod+Shift+F" = "window-toggle-fullscreen"
 
-"Mod+E" = "spawn:nautilus"
-"Mod+Return" = "spawn:ghostty"
-"Mod+B" = "spawn:helium-browser"
+"Mod+Return" = "spawn ghostty"
+"Mod+E" = "spawn nautilus"
+"Mod+B" = "spawn helium-browser"
