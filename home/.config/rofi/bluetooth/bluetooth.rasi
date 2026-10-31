@@ -1,0 +1,13 @@
+@import "../config.rasi"
+
+textbox-prompt-colon {
+  str: "󰂯";
+}
+
+entry {
+  placeholder: "Search devices...";
+}
+
+listview {
+  lines: 5;
+}

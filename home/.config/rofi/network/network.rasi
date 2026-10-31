@@ -1,0 +1,13 @@
+@import "../config.rasi"
+
+textbox-prompt-colon {
+  str: "󰖩";
+}
+
+entry {
+  placeholder: "Search networks...";
+}
+
+listview {
+  lines: 6;
+}
