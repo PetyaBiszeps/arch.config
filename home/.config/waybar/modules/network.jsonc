@@ -13,7 +13,7 @@
     "format-icons": [
       "󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
     ],
-    "on-click": "~/.config/rofi/network/network.sh"
+    "on-click": "~/.config/rofi/scripts/toggle.sh network"
     // "on-click-right": ""
   }
 }

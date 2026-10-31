@@ -10,7 +10,7 @@
     "format-disabled": "󰂲",
     "format-no-controller": "",
 
-    "on-click": "~/.config/rofi/bluetooth/bluetooth.sh"
+    "on-click": "~/.config/rofi/scripts/toggle.sh bluetooth"
     // "on-click-right": ""
   }
 }

@@ -3,6 +3,6 @@
     "format": "󰌽",
     "cursor": true,
     "tooltip": false,
-    "on-click": "rofi -show drun"
+    "on-click": "~/.config/rofi/scripts/toggle.sh launcher"
   }
 }
