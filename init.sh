@@ -18,4 +18,7 @@ bash "$ROOT_DIR/scripts/download.sh"
 echo "==> Linking configurations"
 bash "$ROOT_DIR/scripts/link.sh"
 
+echo "==> Applying wallpapers"
+bash "$ARCH_CONFIG_DIR/scripts/wallpapers.sh"
+
 echo "==> Initialization complete"
