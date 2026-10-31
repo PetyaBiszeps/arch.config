@@ -1,2 +1,13 @@
 [general]
-autostart = ["noctalia"]
+autostart = [
+  "noctalia"
+]
+mod_key = "Super"
+show_cheatsheet = false
+
+[layout]
+gap = 8
+mode = "scrolling"
+
+[layout.scrolling]
+default_extent_fraction = 0.5
