@@ -14,6 +14,7 @@ default_extent_fraction = 0.5
 
 [hot_corners.top_left]
 enabled = true
+delay_ms = 0
 action = "overview-open"
 
 [keybinds]
