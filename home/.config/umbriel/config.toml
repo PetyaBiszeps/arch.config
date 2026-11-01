@@ -51,3 +51,5 @@ follows_mouse = true
 "Mod+T" = "spawn ghostty"
 "Mod+E" = "spawn nautilus"
 "Mod+B" = "spawn helium-browser"
+
+"Print" = "spawn noctalia msg screenshot-region"
