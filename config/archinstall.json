@@ -35,7 +35,7 @@
     "plymouth": "spinner"
   },
   "network_config": {
-    "type": "iso"
+    "type": "nm"
   },
   "app_config": {
     "audio_config": {
