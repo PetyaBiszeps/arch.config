@@ -6,13 +6,13 @@ mod_key = "Super"
 show_cheatsheet = false
 
 [layout]
-gap = 8
+gap = 16
 mode = "scrolling"
 
 [overview]
-zoom = 0.35
+zoom = 0.5
 shortcuts = false
-background_blur = false
+background_blur = true
 workspace_wallpaper = true
 
 [layout.scrolling]
