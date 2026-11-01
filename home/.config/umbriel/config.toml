@@ -28,6 +28,9 @@ delay_ms = 0
 [output.HDMI-A-1]
 min_workspaces = 5
 
+[input.focus]
+follows_mouse = true
+
 [keybinds]
 "Alt+Tab" = "spawn noctalia msg window-switcher hold"
 "Mod+Escape" = "session-quit"
