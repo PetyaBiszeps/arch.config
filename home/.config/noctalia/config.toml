@@ -14,6 +14,9 @@ hidden_tabs = [
   "media", "weather", "screen-time"
 ]
 
+[shell]
+polkit_agent = true
+
 [shell.panel]
 open_near_click_control_center = true
 
