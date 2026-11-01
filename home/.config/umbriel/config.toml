@@ -27,6 +27,7 @@ delay_ms = 0
 
 [output.HDMI-A-1]
 min_workspaces = 5
+cyclic_workspaces = true
 
 [input.focus]
 follows_mouse = true
@@ -39,6 +40,13 @@ follows_mouse = true
 "Mod+Q" = "window-close"
 "Mod+F" = "window-toggle-maximize"
 "Mod+Shift+F" = "window-toggle-fullscreen"
+
+"Mod+Tab" = "workspace-next"
+"Mod+1" = "workspace-switch 1"
+"Mod+2" = "workspace-switch 2"
+"Mod+3" = "workspace-switch 3"
+"Mod+4" = "workspace-switch 4"
+"Mod+5" = "workspace-switch 5"
 
 "Mod+T" = "spawn ghostty"
 "Mod+E" = "spawn nautilus"
