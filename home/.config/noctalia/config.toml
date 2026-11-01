@@ -3,9 +3,11 @@ source = "wallpaper"
 
 [theme.templates]
 enable_builtin_templates = true
+enable_community_templates = true
 builtin_ids = [
   "gtk3", "gtk4", "ghostty"
 ]
+community_ids = ["telegram", "steam"]
 
 [bar.default]
 scale = 1.2
