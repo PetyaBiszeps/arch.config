@@ -4,7 +4,7 @@ source = "wallpaper"
 [theme.templates]
 enable_builtin_templates = true
 builtin_ids = [
-  "ghostty"
+  "gtk4", "ghostty"
 ]
 
 [bar.default]
