@@ -40,5 +40,9 @@ enabled = false
 [widget.network]
 show_label = false
 
+[widget.volume.actions]
+scroll_up = "volume-up 1"
+scroll_down = "volume-down 1"
+
 [widget.control-center]
 enabled = false
