@@ -32,5 +32,8 @@ enabled = false
 [widget.clipboard]
 enabled = false
 
+[widget.network]
+show_label = false
+
 [widget.control-center]
 enabled = false
