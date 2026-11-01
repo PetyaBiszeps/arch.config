@@ -31,6 +31,9 @@ enabled = false
 [widget.clock]
 format = "%a, %d %b | %H:%M"
 
+[widget.tray]
+drawer = true
+
 [widget.media]
 enabled = false
 
