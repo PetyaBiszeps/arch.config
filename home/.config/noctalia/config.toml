@@ -17,6 +17,9 @@ hidden_tabs = [
 [shell.panel]
 open_near_click_control_center = true
 
+[widget.launcher]
+glyph = "brand-git"
+
 [widget.wallpaper]
 enabled = false
 
