@@ -4,14 +4,14 @@ source = "wallpaper"
 [shell.panel]
 open_near_click_control_center = true
 
+[widget.wallpaper]
+enabled = false
+
 [widget.media]
 enabled = false
 
 [widget.clipboard]
 enabled = false
 
-[widget.launcher]
-enabled = false
-
-[widget.wallpaper]
+[widget.control-center]
 enabled = false
