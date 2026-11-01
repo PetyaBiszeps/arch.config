@@ -8,6 +8,11 @@ thickness = 32
 margin_edge = 4
 margin_ends = 400
 
+[control_center]
+hidden_tabs = [
+  "media", "weather", "screen-time"
+]
+
 [shell.panel]
 open_near_click_control_center = true
 
