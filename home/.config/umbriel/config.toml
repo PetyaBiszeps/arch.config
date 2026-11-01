@@ -19,6 +19,8 @@ enabled = true
 action = "overview-open"
 delay_ms = 0
 
+[output.HDMI-A-1]
+min_workspaces = 5
 
 [keybinds]
 "Mod+Escape" = "session-quit"
