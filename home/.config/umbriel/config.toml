@@ -9,6 +9,12 @@ show_cheatsheet = false
 gap = 8
 mode = "scrolling"
 
+[overview]
+zoom = 0.35
+shortcuts = false
+background_blur = false
+workspace_wallpaper = true
+
 [layout.scrolling]
 center_focused = "never"
 center_underfull_strip = false
