@@ -23,7 +23,7 @@ categories = true
 category_icons_only = true
 
 [shell.screenshot]
-annotate = false
+annotate = true
 save_to_file = false
 confirm_region = false
 copy_to_clipboard = true
