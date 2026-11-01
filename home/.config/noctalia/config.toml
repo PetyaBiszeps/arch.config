@@ -17,6 +17,11 @@ hidden_tabs = [
 [shell.panel]
 open_near_click_control_center = true
 
+[shell.launcher]
+layout = "simple"
+categories = true
+category_icons_only = true
+
 [widget.launcher]
 glyph = "brand-git"
 
