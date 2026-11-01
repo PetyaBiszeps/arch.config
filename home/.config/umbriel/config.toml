@@ -32,6 +32,7 @@ min_workspaces = 5
 follows_mouse = true
 
 [keybinds]
+"Mod+Return" = "spawn noctalia msg panel-toggle launcher"
 "Alt+Tab" = "spawn noctalia msg window-switcher hold"
 "Mod+Escape" = "session-quit"
 
@@ -39,6 +40,6 @@ follows_mouse = true
 "Mod+F" = "window-toggle-maximize"
 "Mod+Shift+F" = "window-toggle-fullscreen"
 
-"Mod+Return" = "spawn ghostty"
+"Mod+T" = "spawn ghostty"
 "Mod+E" = "spawn nautilus"
 "Mod+B" = "spawn helium-browser"
