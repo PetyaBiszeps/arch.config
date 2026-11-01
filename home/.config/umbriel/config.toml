@@ -26,6 +26,7 @@ action = "overview-open"
 delay_ms = 0
 
 [output.HDMI-A-1]
+vrr = "fullscreen"
 min_workspaces = 5
 cyclic_workspaces = true
 
@@ -58,3 +59,9 @@ follows_mouse = true
 "Mod+B" = "spawn helium-browser"
 
 "Print" = "spawn noctalia msg screenshot-region"
+"Mod+Grave" = "scratchpad-toggle terminal"
+
+[[scratchpad]]
+name = "terminal"
+spawn_when_empty = "ghostty"
+proportional_size = true

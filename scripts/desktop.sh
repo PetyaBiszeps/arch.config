@@ -5,6 +5,7 @@ set -euo pipefail
 echo "==> Installing desktop applications"
 
 yay -S --needed --noconfirm \
-  discord spotify-launcher telegram-desktop steam lact
+  discord spotify-launcher telegram-desktop steam \
+  lact mangohud
 
 echo "==> Done"
