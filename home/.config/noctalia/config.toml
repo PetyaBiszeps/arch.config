@@ -1,6 +1,12 @@
 [theme]
 source = "wallpaper"
 
+[theme.templates]
+enable_builtin_templates = true
+builtin_ids = [
+  "ghostty"
+]
+
 [bar.default]
 scale = 1.2
 padding = 12
