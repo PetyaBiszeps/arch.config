@@ -1,6 +1,12 @@
 [theme]
 source = "wallpaper"
 
+[bar.main]
+padding = 12
+thickness = 32
+margin_edge = 4
+margin_ends = 400
+
 [shell.panel]
 open_near_click_control_center = true
 
