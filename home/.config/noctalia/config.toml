@@ -2,6 +2,7 @@
 source = "wallpaper"
 
 [bar.default]
+scale = 1.2
 padding = 12
 thickness = 32
 margin_edge = 4
@@ -12,6 +13,9 @@ open_near_click_control_center = true
 
 [widget.wallpaper]
 enabled = false
+
+[widget.clock]
+format = "%a, %d %b | %H:%M"
 
 [widget.media]
 enabled = false
