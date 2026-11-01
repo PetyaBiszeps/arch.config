@@ -1,7 +1,7 @@
 [theme]
 source = "wallpaper"
 
-[bar.main]
+[bar.default]
 padding = 12
 thickness = 32
 margin_edge = 4
