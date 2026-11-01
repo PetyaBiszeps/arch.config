@@ -29,6 +29,11 @@ delay_ms = 0
 min_workspaces = 5
 cyclic_workspaces = true
 
+[input.keyboard]
+layout = "us,ru"
+options = "grp:alt_shift_toggle"
+track_layout = "global"
+
 [input.focus]
 follows_mouse = true
 
