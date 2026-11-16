@@ -55,7 +55,7 @@ follows_mouse = true
 "Mod+5" = "workspace-switch 5"
 
 "Mod+T" = "spawn ghostty"
-"Mod+E" = "spawn nautilus"
+"Mod+E" = "spawn luciole"
 "Mod+B" = "spawn helium-browser"
 
 "Print" = "spawn noctalia msg screenshot-region"
