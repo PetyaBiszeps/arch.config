@@ -65,3 +65,8 @@ scroll_down = "volume-down 1"
 
 [widget.control-center]
 enabled = false
+
+# Luciole template integration
+[theme.templates.user.luciole]
+input_path = "/usr/share/luciole/templates/colors.toml"
+output_path = "$XDG_CONFIG_HOME/luciole/colors.toml"

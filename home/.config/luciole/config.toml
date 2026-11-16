@@ -1,1 +1,19 @@
-# config for luciole file manager
+[browser]
+view_mode = "list"
+density = "compact"
+filename_truncation = "middle"
+
+show_hidden = false
+show_backups = false
+
+always_show_tab_bar = false
+always_show_status_bar = false
+compact_menus = true
+
+activation_mode = "double_click"
+typing_mode = "search"
+switch_to_new_tab = true
+restore_last_window = false
+
+terminal_command = "ghostty"
+sort_by = "name"
