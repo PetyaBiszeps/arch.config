@@ -15,6 +15,7 @@
 home/.config/git/user
 home/.config/luciole/colors.toml
 home/.config/luciole/settings.toml
+home/.config/luciole/.settings.toml.lock
 home/.config/mise/config.local.toml
 home/.config/ghostty/themes/noctalia
 

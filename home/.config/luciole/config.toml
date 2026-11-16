@@ -5,6 +5,7 @@ filename_truncation = "middle"
 
 show_hidden = false
 show_backups = false
+show_preview = false
 
 always_show_tab_bar = false
 always_show_status_bar = false
